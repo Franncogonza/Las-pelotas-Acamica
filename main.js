@@ -12,3 +12,13 @@
       var num = Math.floor(Math.random() * (max - min)) + min;
       return num;
   }
+
+  function Ball(x, y, velX, velY, color, size) {
+    this.x = x; //posición horizontal
+    this.y = y; //posición vertical
+    this.velX = velX; //velocidad horizontal
+    this.velY = velY; //velocidad vertical
+    this.color = color; //color
+    this.size = size; //tamaño
+}
+
